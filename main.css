@@ -1,0 +1,241 @@
+/*reser css */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*start */ 
+
+body { 
+	font-family: Arial, sans-serif;
+	line-height: 1.2;
+}
+
+ul,
+li {
+	list-style-type: none;
+	color: #000000;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: #000000;
+}
+
+.main-nav {
+	padding: 0;
+	margin: 0;
+}
+
+.main-nav a {
+	padding: 10px 20px;
+}
+
+.header-content-wrap {
+	background: url(images/background.png);
+	color: white;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+.container {
+	padding: 80px;
+}
+
+i {
+	font-style: italic;
+}
+
+h1 {
+	font-size: 100px;
+    text-align: left;
+}
+
+div.page-wrap h1 {
+	display: inline-block;
+	text-align: left;
+	width: 00px;
+}
+
+h3 {
+	font-size: 30px;
+    text-align: right;
+    padding: 10px 10px 10px 500px;
+    margin: 10px;
+}
+
+div.page-wrap h3 {
+	display: block;
+	text-align: center;
+}
+
+.article h2 {
+    font-size: 16px;
+    color: black;
+    font-weight: 800;
+    margin: 10px 0;
+	text-align: center;
+}
+
+.article p {
+	max-width: 1240px;
+	margin-bottom: 15px;
+	font-size: 13px;
+}
+
+div.main-section {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.grid {
+        width:395px;
+        height:300px;
+        background-color:#FFE2DC;
+        display: block;
+        float: left;
+        margin-right: 5px;
+}
+
+div.content-wrap {
+	width: 1150px;
+	height: 300px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+div.row {
+	background: url(images/image.png);
+	color: white;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	width: 750px;
+	height: 300px;
+	display: block;
+	float: right;
+}
+
+div.grid h2 {
+	font-size: 50px;
+	text-align: center;
+	border: 5px solid black;
+	border-right-style: none;
+	border-left-style: none;
+    padding:15px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.row-content h2 {
+	font-size: 50px;
+}
+
+div.row-content {
+	padding-top: 200px;
+}
+
+div.figure {
+	width: 1160px;
+	height: 300px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+div.figure-box {
+	width:376px;
+    height:300px;
+    background-color:black;
+    display: block;
+    float: left;
+    margin: 5px;
+}
+
+.figure-box h3 {
+	color: white;
+	font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+div.footer {
+	width: 1150px;
+	padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+button.social {
+	margin-left: 8px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+div.signature {
+	width: 1150px;
+	padding: 5px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	font-size: 10px;
+}
