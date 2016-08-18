@@ -73,6 +73,10 @@ a:hover {
 	color: #000000;
 }
 
+.main-header {
+	text-align: center;
+	
+}
 .main-nav {
 	padding: 0;
 	margin: 0;
@@ -216,7 +220,7 @@ div.figure-box {
     margin-right: 80px;
 }
 
-div.footer {
+footer {
 	width: 1150px;
 	padding: 10px;
 	margin: 0 auto;
@@ -224,7 +228,7 @@ div.footer {
 	justify-content: center;
 }
 
-button.social {
+.social {
 	margin-left: 8px;
 	background-color: white;
 	border: 1px solid black;
